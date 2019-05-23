@@ -1,0 +1,45 @@
+.principal{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.visor {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  background-color: gray;
+  color: #fff;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+/************************** TESTE 2 **************************/
+.container2 {
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px 60px;
+  grid-template-rows: 30px 30px;
+  grid-auto-flow: row;
+}
+
+.item-a {
+  grid-column: 1;
+  grid-row: 1 / 3;
+}
+.item-e {
+  grid-column: 5;
+  grid-row: 1 / 3;
+}
