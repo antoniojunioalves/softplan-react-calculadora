@@ -1,0 +1,24 @@
+.calculator {
+    height: 450px;
+    width: 280px;
+    background-color: red;
+    overflow: hidden;
+}
+
+.display {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.numbers {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.operators {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}

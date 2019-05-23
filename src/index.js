@@ -2,9 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Calculadora from './Components/Calculadora'
+import Calculator from './main/Calculator'
 
-ReactDOM.render(<Calculadora />, document.getElementById('root'));
+ReactDOM.render(
+    <div>
+        <h1>Calculator</h1>
+        <Calculator />
+    </div>
+    
+, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
