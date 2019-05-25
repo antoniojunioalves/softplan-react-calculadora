@@ -1,24 +1,17 @@
-.calculator {
-    height: 450px;
-    width: 280px;
-    background-color: red;
+.container {
+    display: grid;
+    height: 440px;
+    width: 272px;    
     overflow: hidden;
+    grid-template-columns: repeat(4, 68px);
+    grid-template-rows: 1fr repeat(4, 65px); 
+    grid-auto-flow: row;
 }
 
-.display {
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-}
-
-.numbers {
-    height: 100px;
-    width: 100px;
-    background-color: red;
-}
-
-.operators {
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
-}
+.painel-right {
+    display: grid;
+    grid-template-columns: 75px;
+    grid-column: 4;
+    grid-row: 2 / 5;
+    grid-template-rows: repeat(5, 52px);     
+} 

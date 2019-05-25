@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Calculator from './main/Calculator';
 import * as serviceWorker from './serviceWorker';
-import Calculator from './main/Calculator'
+import { directive } from '@babel/types';
 
 ReactDOM.render(
     <div>
         <h1>Calculator</h1>
         <Calculator />
     </div>
-    
 , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

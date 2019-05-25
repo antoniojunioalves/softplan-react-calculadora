@@ -1,8 +1,31 @@
+:root {
+    /* --bg-button: #f0f0f0; */
+    /* --border-button: solid 1px #888; */
+    --bg-button: rgb(60, 64, 67);    
+}
+
 .button {
     font-size: 1.4em;
-    background-color: rgb(32, 32, 37);    
+    background-color: var(--bg-button);    
     border: none;
-    border-right: var(--border-button);
-    border-bottom: var(--border-button);
+    border-right: var(--bg-button);
+    border-bottom: var(--bg-button);
     outline: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+/* Deixa o botão mais escuro quando pressionado */
+.button:active {
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.button.operation {
+    background-color: rgb(95, 98, 103);
+    font-size: 1.0em;
+}
+
+.button.operation:active {
+    background-color: #ccc;
 }
