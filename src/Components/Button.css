@@ -10,7 +10,7 @@
     border: none;
     border-right: var(--bg-button);
     border-bottom: var(--bg-button);
-    outline: none;
+    outline: none; /* Para não ficar com o botão "circulado" quando terminar de clicar nele */
     color: #FFF;
     font-weight: bold;
 }
@@ -21,11 +21,13 @@
     border-radius: 50%;
 }
 
+/* especificações para quando for o botão de operação */
 .button.operation {
     background-color: rgb(95, 98, 103);
     font-size: 1.0em;
 }
 
+/* Quando o botão de operação for pressionado */
 .button.operation:active {
     background-color: #ccc;
 }

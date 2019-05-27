@@ -1,17 +1,17 @@
 .container {
-    display: grid;
-    height: 440px;
-    width: 272px;    
-    overflow: hidden;
-    grid-template-columns: repeat(4, 68px);
-    grid-template-rows: 1fr repeat(4, 65px); 
-    grid-auto-flow: row;
+    display: grid; /* Tipo do CSS*/
+    height: 440px; /* Altura */
+    width: 272px;  /* Largura */
+    overflow: hidden; /* Para o conteúdo não exceder o tamanho */
+    grid-template-columns: repeat(4, 68px); /* Quantidade/Tamanho das colunas */
+    grid-template-rows: 1fr repeat(4, 65px); /* Quantidade/Tamanho das linhas */
+    /* grid-auto-flow: row; */
 }
 
 .painel-right {
-    display: grid;
-    grid-template-columns: 75px;
-    grid-column: 4;
-    grid-row: 2 / 5;
+    display: grid; /* Tipo de CSS */
+    grid-template-columns: 75px; 
+    grid-column: 4; /* Em qual coluna ele será inserido */
+    grid-row: 2 / 5; /* Em quais linhas ele será inserido (Da 2 até a 5) */
     grid-template-rows: repeat(5, 52px);     
 } 

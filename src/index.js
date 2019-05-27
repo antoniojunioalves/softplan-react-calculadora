@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Calculator from './main/Calculator';
 import * as serviceWorker from './serviceWorker';
-import { directive } from '@babel/types';
 
 ReactDOM.render(
     <div>

@@ -1,10 +1,27 @@
 .display{
-    grid-column: span 4;
+    grid-column: span 4; /* Para ocupar as 4 colunas do grid principal onde ele está dentro */
     background-color: #FFF;
+    /* background-color: green; */
+    display: grid; /* Modelo/Jeito que vou utilizar o componente */
+    overflow: hidden; /* Para não exceder ao tamanho do componente */
+    grid-template-columns: 272px; /* Quantidade/Tamanho das colunas */
+    grid-template-rows: 80px 100px; /* Quantidade/Tamanho das linhas*/
+}
+
+.textDisplay{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px;
-    font-size: 2.1em;
-    overflow: hidden;
+    justify-content: flex-end; /* Alinhas da direita para a esquerda */
+    align-items: flex-start; /* Alinhas no centro de cima pra baixo */
+    font-size: 2.7em; 
+    color: black; 
+    /* background-color: blue */
+}
+
+.memoryDisplay{
+    display: flex;
+    justify-content: flex-end; /* Alinhas da direita para a esquerda */
+    align-items: flex-end;
+    color: black; 
+    /* height: 100vh; */
+    /* background-color: green; */
 }
