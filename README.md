@@ -2,13 +2,11 @@
 
 Projeto feito para implementar algumas funções em React que aprendi com o DaniBoy (Sem intimidades)
 
-## Usando
+## Finalidades
 
-A calculadora efetua as seguintes operações.
-
+A calculadora foi desenvolvida para calculos simples. Com uma interface super maneira e descolada igual a do smartphone da Motorola "Moto X4"
 
 ### Operações suportadas
-- [Filipe Linhares](http://github.com/filipelinhares)
 - Soma
 - Subtração
 - Multiplicação
