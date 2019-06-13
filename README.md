@@ -1,10 +1,10 @@
 # Calculadora em React
 
-Projeto feito para implementar algumas funções em React que aprendi com o DaniBoy (Sem intimidades)
+Projeto feito para implementar algumas funções em React que aprendi tais como Flexbox e CSS Grid Layout
 
 ## Finalidades
 
-A calculadora foi desenvolvida para calculos simples. Com uma interface super maneira e descolada igual a do smartphone da Motorola "Moto X4"
+A calculadora foi desenvolvida para calculos simples. Com uma interface igual a do smartphone da Motorola "Moto X4"
 
 ### Operações suportadas
 - Soma
